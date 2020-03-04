@@ -1,0 +1,18 @@
+Package: nba
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Bernell",
+           family = "Downer",
+           role = c("aut", "cre"),
+           email = "bkd2115@tc.columbia.edu",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: nba accepts as an input 1 individual year in the “Seasons_Stats_NBA.csv” dataset and age_scorer produces the age of the player who scored the most points for that year, max_age produces the oldest player in the NBA data for that year, and corr_num produces the correlation matrix for all numeric variables in the data for that year.
+Imports:
+	tidyverse,
+	dplyr,
+	corrplot
+License: What license it uses
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2.9000
